@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/aircompany"
+           elementFormDefault="unqualified"
+           xmlns:tmp="http://www.example.com/template">
+    <xs:import schemaLocation="template.xsd" namespace="http://www.example.com/template"/>
+    <xs:element name="aircompany">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="plane" type="tmp:planes" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

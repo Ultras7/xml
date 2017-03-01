@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aircom:aircompany xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.example.com/aircompany aircompany.xsd"
+             xmlns:aircom="http://www.example.com/aircompany">
+    <plane planeType="Boeing">
+        <name>Boeing 747</name>
+        <seatsNumber>223</seatsNumber>
+        <overalWeight>70000</overalWeight>
+        <maxDistance>11000</maxDistance>
+        <fuelcapacity>30000</fuelcapacity>
+    </plane>
+    <plane planeType="Airbus320">
+        <name>Airbus A320</name>
+        <seatsNumber>156</seatsNumber>
+        <overalWeight>50000</overalWeight>
+        <maxDistance>6100</maxDistance>
+        <fuelcapacity>20000</fuelcapacity>
+    </plane>
+    <plane planeType="Airbus321">
+        <name>Airbus A321</name>
+        <seatsNumber>188</seatsNumber>
+        <overalWeight>60000</overalWeight>
+        <maxDistance>5950</maxDistance>
+        <fuelcapacity>25000</fuelcapacity>
+    </plane>
+    <plane planeType="Embraer">
+        <name>Embrear 190</name>
+        <seatsNumber>103</seatsNumber>
+        <overalWeight>40000</overalWeight>
+        <maxDistance>4500</maxDistance>
+        <fuelcapacity>17000</fuelcapacity>
+    </plane>
+</aircom:aircompany>

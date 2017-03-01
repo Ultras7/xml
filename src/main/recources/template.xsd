@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/template"
+           elementFormDefault="unqualified">
+    <xs:complexType name="planes">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" maxOccurs="1"/>
+            <xs:element name="seatsNumber" type="xs:int" maxOccurs="1"/>
+            <xs:element name="overalWeight" type="xs:int" maxOccurs="1"/>
+            <xs:element name="maxDistance" type="xs:int" maxOccurs="1"/>
+            <xs:element name="fuelcapacity" type="xs:int" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="planeType" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>
